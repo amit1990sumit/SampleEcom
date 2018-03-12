@@ -27,12 +27,6 @@
     
 }
 @property (nonatomic,strong)KNetworkAdapter *networkAdapter;
-@property (weak, nonatomic) IBOutlet UILabel *lblCity;
-@property (weak, nonatomic) IBOutlet UILabel *cloud;
-@property (weak, nonatomic) IBOutlet UILabel *temp;
-@property (weak, nonatomic) IBOutlet UILabel *highAndLowTemp;
-@property (weak, nonatomic) IBOutlet UILabel *humidity;
-@property (weak, nonatomic) IBOutlet UIImageView *imgWeather;
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *spinner;
 @property (strong, nonatomic) NSMutableArray *arrayProduct;
 @end
